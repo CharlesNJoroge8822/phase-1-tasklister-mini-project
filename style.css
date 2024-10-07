@@ -35,3 +35,41 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+img {
+  height: 70px;
+  border-radius: 35px;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed; /* Fix background image */
+  padding: 10px;
+  background-image: url(background.jpeg);
+  background-size: cover; /* Ensure the image covers the whole area */
+}
+
+.todo-app { /* Adjusted class name to match your HTML */
+  width: 100%;
+  background: rgb(204, 17, 17);
+  margin: 100px auto 20px;
+  max-width: 540px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.todo-app h2 {
+  color: aqua;
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  justify-content: space-between;
+  display: flex;
+  background: grey;
+}
+
+input[type="text"] { /* Added styles for the input field */
+  flex-grow: 1; /* Allow the input to take available space */
+}
